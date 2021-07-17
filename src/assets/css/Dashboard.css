@@ -1,0 +1,62 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2f1f3b;
+    font-family: Facile Sans, serif;
+}
+
+.left-container {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: space-between;
+}
+
+.left-header-title {
+    font-size: 5vh;
+    color: #FFF;
+}
+
+.left-slogan {
+    font-size: 8vh;
+    color: #FFF;
+}
+
+.left-scroller {
+    display: block;
+    flex-direction: column;
+    width: 16%;
+}
+
+.scroll-text {
+    font-size: 2vh;
+    color: #FFFFFF;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-icon {
+    padding: 10%;
+    width: 20%;
+}
+
+.right-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #faed24;
+    padding: 2%;
+    height: 70%;
+    justify-content: flex-end;
+}
+
+.right-container > * {
+    font-size: 8vh;
+}
